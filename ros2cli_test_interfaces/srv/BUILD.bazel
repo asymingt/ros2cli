@@ -20,7 +20,8 @@ ros_interface(
     name = "ShortVariedMultiNested",
     src = "ShortVariedMultiNested.srv",
     deps = [
-        "@service_msgs//msg:ServiceEventInfo",
         "//msg:ShortVariedNested",
+        # Services have implicit deps
+        "@service_msgs//msg:ServiceEventInfo",
     ],
 )
