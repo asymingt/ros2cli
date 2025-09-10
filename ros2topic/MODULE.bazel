@@ -15,13 +15,7 @@
 # Package information
         
 module(
-    name = "ros2cli_test_interfaces",
+    name = "ros2topic",
     version = "0.39.2",
     compatibility_level = 0,
 )
-
-# Dependencies
-
-bazel_dep(name = "action_msgs", version = "2.4.1")
-bazel_dep(name = "ros", version = "0.0.1")
-bazel_dep(name = "service_msgs", version = "2.4.1")
